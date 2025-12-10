@@ -18,6 +18,7 @@ struct shaurma
 int main()
 {
     //функция 1:
+    wifstream inFile("ababa.txt");
 
     //функция 2:
 
