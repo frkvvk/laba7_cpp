@@ -19,6 +19,16 @@ int main()
 {
     //функция 1:
     wifstream inFile("ababa.txt");
+    vector<shaurma> vse_shaurmy;
+    while(!inFile.eof())
+    {
+        shaurma vid;
+        inFile >> vid.kalorii;
+        inFile >> vid.ves;
+        inFile >> vid.sous;
+        inFile >> vid.meat;
+        vse_shaurmy.push_back(vid);
+    }
 
     //функция 2:
 
