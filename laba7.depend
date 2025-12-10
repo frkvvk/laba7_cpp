@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1765336090 source:d:\c++\laba7\laba7_cpp\main.cpp
+	<iostream>
+	<fstream>
+	<locale>
+	<vector>
+	<sstream>
+	<iomanip>
+
